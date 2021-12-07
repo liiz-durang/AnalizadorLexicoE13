@@ -1,7 +1,7 @@
 # Proyecto 2 Compiladores 
 
 Compilador para lenguaje C-- Versión 0.
-Analizador léxico
+##Analizador léxico
 
 * Durán González Lizeth 
 * García Meneses jeremy 
