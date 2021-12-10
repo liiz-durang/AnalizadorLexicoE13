@@ -8,7 +8,7 @@ char nombre mes;
 
 int main(){
 	float b = 123f;
-	doubl a = 123E12;
+	double a = 123E12;
 	double c = 123E12d;
 	float x = 123e12F;
 
