@@ -16,8 +16,8 @@
 
 
 ENTERO [0-9]+
-FLOTANTE ([0-9])*.([0-9])+([Ee]([+-])?([0-9])+)?[fF]
-DOUBLE ([0-9])*.([0-9])+([Ee]([+-])?([0-9])+)?[dD]?
+FLOTANTE ([0-9])*"."([0-9])+([Ee]([+-])?([0-9])+)?[fF]
+DOUBLE ([0-9])*"."([0-9])+([Ee]([+-])?([0-9])+)?[dD]?
 ID [a-zA-Z][A-Za-z0-9_]*
 ESP [ \t\n\r]
 CADENA  \"([\x20-\x21\x23-\xFE])*\"
@@ -64,9 +64,9 @@ CARACTER \'([\x20-\x21\x23-\xFE \t\n\r])\'
 "." 		{return PUNTO;}
 {ESP}		{}
 
-{ENTERO}	{return NUMERO;}
-{FLOTANTE}	{return NUMERO;}
-{DOUBLE}	{return NUMERO;}
+{ENTERO}	{return NENTERO;}
+{FLOTANTE}	{return NFLOAT;}
+{DOUBLE}	{return NDOUBLE;}
 
 {ID}		{return ID;}
 

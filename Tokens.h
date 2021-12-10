@@ -54,7 +54,10 @@ namespace COMP{
 
     const int ESP       = 36; // espacio
 
-    const int NUMERO    = 37; //Entero o flotante o double
+    //const int NUMERO   = 37; //Entero o flotante o double
+    const int NFLOAT     = 37;
+    const int NDOUBLE    = 41;
+    const int NENTERO    = 42;
 
     const int ID        = 38; // identificadores
 
